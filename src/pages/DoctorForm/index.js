@@ -70,7 +70,7 @@ function DoctorForm() {
 
     return (
         <div className="bg-white p-2 ">
-            {!alreadyApplied || alreadyApproved && (<><h3
+            {(!alreadyApplied || alreadyApproved) && (<><h3
                 className="uppercase my-1">
                 {alreadyApproved ? "Update your Information" : "Apply as a Doctor"}
             </h3>

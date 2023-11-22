@@ -30,7 +30,7 @@ function Home() {
         getData()
     }, []);
     const navigate = useNavigate();
-    return (<div>
+    return (user &&<div>
 
         <div className="flex justify-between">
             <div >
